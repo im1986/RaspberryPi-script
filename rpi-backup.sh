@@ -20,7 +20,7 @@ if [ -z "`grep $usbmount /etc/mtab`" ]; then
 	exit 0
 fi 
 
-img=$usbmount/iNovaBear-`date +%Y%m%d-%H%M`.img
+img=$usbmount/iRasp-`date +%Y%m%d-%H%M`.img
 #img=$usbmount/rpi.img
 
 #install tools
